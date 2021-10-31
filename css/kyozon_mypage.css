@@ -1,0 +1,33 @@
+.favorite_icon {
+    width: 30px;
+    height: 30px;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	border-radius:30px;
+}
+
+.favorite_icon svg {
+    width: 20px;
+    height: 20px;
+	fill:none;
+	margin:0 auto;
+	stroke:#1DAECB;
+	stroke-width:50;
+	
+}
+.favorite_icon:hover{
+	background:#F3E6ED;
+}
+.favorite_icon:hover svg{
+	stroke:#E0245E;
+}
+
+.favorite_icon_on{
+	background:none;
+}
+
+.favorite_icon_on svg {
+    fill: #E0245E;
+	stroke:#E0245E;
+}
